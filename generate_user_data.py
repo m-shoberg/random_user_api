@@ -22,7 +22,7 @@ print(f"Age: {user['dob']['age']}")
 #uncomment below to print key:value pairs
 #pprint(data)
 
-#save photo value
+#save photo variable
 photo = user['picture']['large']
 #convert photo variable to str for call
 image_url = str(photo)
